@@ -271,7 +271,7 @@ const Home = (props) => {
             <div className="home-card3">
               <div className="home-card-heading">
                 <span className="home-type Anchor">Minimal</span>
-                <span className="Section-Heading">Basic</span>
+                <span className="home-price Section-Heading">Basic</span>
               </div>
               <div className="home-card-content">
                 <div className="home-feature">
@@ -329,7 +329,9 @@ const Home = (props) => {
             <div className="home-card5">
               <div className="home-card-heading2">
                 <span className="home-type2 Anchor">Premium</span>
-                <span className="Section-Heading">Professional</span>
+                <span className="home-price2 Section-Heading">
+                  Professional
+                </span>
               </div>
               <div className="home-card-content2">
                 <div className="home-container14">
@@ -1173,7 +1175,7 @@ const Home = (props) => {
             padding-top: var(--dl-space-space-fiveunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
-            background-color: A8A38F;
+            background-color: var(--dl-color-colormind-browngrey);
           }
           .home-heading-container3 {
             width: 45%;
@@ -1185,7 +1187,7 @@ const Home = (props) => {
             flex-direction: column;
           }
           .home-text28 {
-            color: var(--dl-color-primary-accentpink);
+            color: var(--dl-color-colormind-darkgreen);
             margin-bottom: var(--dl-space-space-fourunits);
           }
           .home-pricing-card-container {
@@ -1224,6 +1226,9 @@ const Home = (props) => {
           .home-type {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
+          .home-price {
+            color: var(--dl-color-primary-accentpink);
+          }
           .home-card-content {
             width: 100%;
             display: flex;
@@ -1249,7 +1254,7 @@ const Home = (props) => {
             border-right-width: 0px;
           }
           .home-name {
-            color: var(--dl-color-primary-primaryviolet);
+            color: var(--dl-color-colormind-darkgreen);
           }
           .home-limit {
             color: var(--dl-color-gray-white);
@@ -1276,7 +1281,7 @@ const Home = (props) => {
             border-right-width: 0px;
           }
           .home-name1 {
-            color: var(--dl-color-primary-primaryviolet);
+            color: var(--dl-color-colormind-darkgreen);
           }
           .home-limit1 {
             color: white;
@@ -1298,7 +1303,7 @@ const Home = (props) => {
             justify-content: space-between;
           }
           .home-name2 {
-            color: var(--dl-color-primary-primaryviolet);
+            color: var(--dl-color-colormind-darkgreen);
           }
           .home-limit2 {
             color: var(--dl-color-gray-white);
@@ -1449,6 +1454,9 @@ const Home = (props) => {
           .home-type2 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
+          .home-price2 {
+            color: var(--dl-color-primary-accentpink);
+          }
           .home-card-content2 {
             width: 100%;
             display: flex;
@@ -1474,7 +1482,7 @@ const Home = (props) => {
             border-right-width: 0px;
           }
           .home-text41 {
-            color: var(--dl-color-primary-primaryviolet);
+            color: var(--dl-color-colormind-darkgreen);
           }
           .home-text42 {
             color: white;
@@ -1501,7 +1509,7 @@ const Home = (props) => {
             border-right-width: 0px;
           }
           .home-text43 {
-            color: var(--dl-color-primary-primaryviolet);
+            color: var(--dl-color-colormind-darkgreen);
           }
           .home-text44 {
             color: white;
@@ -1528,7 +1536,7 @@ const Home = (props) => {
             border-right-width: 0px;
           }
           .home-text45 {
-            color: var(--dl-color-primary-primaryviolet);
+            color: var(--dl-color-colormind-darkgreen);
           }
           .home-text48 {
             color: white;
